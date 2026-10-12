@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/assets/imagens/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px 16px;  
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 24px;
+    text-align: center;
+}
+
+.foto {
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+    object-position: 90% 10%;
+    border-radius: 50%;
+    border: 2px solid #00000080
+}
+
+.links-paginas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;          
+    max-width: 588px;     
+    gap: 8px;
+    padding: 24px 0;  
+}
+
+.links-paginas a {
+    text-decoration: none;
+    padding: 16px 24px 16px 24px;
+    width: 100%;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-paginas a:hover {
+    background-color: rgb(195, 178, 243);
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
